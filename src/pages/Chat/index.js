@@ -6,7 +6,7 @@ import { View, Text } from 'react-native';
 const Chat = () => {
   return (
       <>
-        <View>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center", backgroundColor: '#FFFF00' }}>
             <Text>This is Chat</Text>
         </View>
       </>

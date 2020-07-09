@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { StatusBar } from 'react-native';
 import Router from './routes';
 
 const App = () => {
   return (
       <>
+        <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
         <Router />
       </>
   );
